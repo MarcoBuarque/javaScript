@@ -1,3 +1,21 @@
 JavaScript do básico ao avançado (c/ Node.js e projetos) 
 https://www.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/
 
+DataTypes segundo w3schools
+https://www.w3schools.com/js/js_datatypes.asp
+
+Typeof exemplos
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
+
+Tipos de dados primitivos
+https://medium.com/@alves.guilherme1357/tipos-de-dados-primitivos-em-javascript-d7380564933c
+
+Tipos de dados
+https://pt.wikipedia.org/wiki/Tipo_de_dado
+
+
+Prototype
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
+GLobal Objects
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
