@@ -64,6 +64,9 @@ var x2 = false;
 
 x1 é um tipo de Objeto Booleano, que possui como valor (valueOf) false, já x2 é um tipo primitivo booleano
 
+A diferença entre Boolean('algo') e new Boolean('algo')
+Boolean(1) dá um primitivo do tipo Booleano e new Boolean(1) dá um objeto, uma instância, que quando lhe pedimos o seu valor retorna um primitivo.
+
 test = new Boolean(true)
 console.log(typeof(test), typeof(!![]) === typeof(true), typeof(!![]) === typeof(test), typeof(test) === typeof(true))
 
