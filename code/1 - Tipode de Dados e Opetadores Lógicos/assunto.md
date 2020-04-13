@@ -43,6 +43,9 @@ Támbem existem alguns caracteres especial para estilizar uma string, como o \n 
 
 Você pode converter um tipo de dado em uma string utilizando a função String(expressão) ou toString, se o dano não for null ou undefined
 
+A diferença entre String('algo') e new String('algo')
+String(1) dá um primitivo do tipo String e new String(1) dá um objeto, uma instância, que quando lhe pedimos o seu valor retorna um primitivo.
+
 Exemplos de strings
 - typeof '' === 'string';
 - typeof 'bla' === 'string';

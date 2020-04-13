@@ -1,0 +1,15 @@
+Exerccios 
+https://www.youtube.com/watch?v=Jpg2n8Q0bnU&list=PLnNURxKyyLIJuo2iDA7mMB8CFUWqUYnjX
+
+Objetos e classes
+https://medium.com/@viniazvd/classes-vs-fun%C3%A7%C3%B5es-construtoras-vs-fun%C3%A7%C3%B5es-f%C3%A1brica-b92a6afa70a4
+https://medium.com/@viniazvd/heran%C3%A7a-com-prot%C3%B3tipos-2a516c65bd6
+https://www.youtube.com/watch?v=1Y0nSEMvTt0&list=PLQCmSnNFVYnT1-oeDOSBnt164802rkegc&index=14
+https://medium.com/@viniazvd/closures-bef1a912c506
+
+Sobre o new
+
+https://www.youtube.com/watch?v=k8eib-FI6OA
+
+CONSTRUCTUR FUNCTIONS (FUNÇÕES DE CONSTRUTOR)
+https://www.youtube.com/watch?v=akKdayWNVyc
