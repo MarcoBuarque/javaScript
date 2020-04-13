@@ -41,7 +41,7 @@ ex String.sunstr(...) ou String.concat('')
 
 Támbem existem alguns caracteres especial para estilizar uma string, como o \n que pula uma linha, o \t que dá um tab no texto, entre outros.
 
-Você pode converter um tipo de dado em uma string utilitando a função String(expressão)
+Você pode converter um tipo de dado em uma string utilizando a função String(expressão) ou toString, se o dano não for null ou undefined
 
 Exemplos de strings
 - typeof '' === 'string';

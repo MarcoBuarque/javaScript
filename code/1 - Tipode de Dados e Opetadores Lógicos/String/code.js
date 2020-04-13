@@ -18,3 +18,25 @@ let test8 = 'aaaa string'
 let str = test8.concat('aaaaa')
 test8.concat('aaaaa')
 console.log(test8, str)
+
+// toString() x String()
+
+aux = undefined
+let strrr = new String(typeof(x)) // Dá erro, mas pq? não tem referencia na memoria?
+// console.log(x.toString())
+console.log(String(null), String(undefined), strrr, typeof strrr)
+
+console.log(strrr.String, strrr[5])
+
+const str2 = { String: null }
+console.log(str2.String, str2[5])
+
+strrr = `template`
+console.log(typeof strrr)
+
+console.log(test.toString(), test, test.Function)
+
+str = 'string test string'
+let concat = str.lastIndexOf('string')
+
+console.log(concat)

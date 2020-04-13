@@ -33,11 +33,9 @@ const test8 = 'aaaa strirng'
 test8.concat('aaaaa')
 
 const test7 = () => {}
-let test3 = String(test7)
-let test22 = new String(test7)
 
-
-console.log(!![], typeof test22 ,typeof test3)
+test = new Boolean(true)
+console.log(!![], !!test7, typeof(!![]) == typeof(test), typeof(test) === typeof(true))
 
 
 
