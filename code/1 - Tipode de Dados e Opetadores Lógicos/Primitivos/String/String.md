@@ -1,4 +1,3 @@
-
 ### String ###
 
 As string são utilizadas para representar textos, esses textos vêm envoltos de aspas simples '' ou aspas duplas "" ou crases ``, sendo o último caso chamado de template literals. Uma string é formada por caracteres, também chamados de elementos, cada caracter possui 16-bits unsigned integer, isso é, ocupam 16 bits na memória.
@@ -15,6 +14,16 @@ Como string é um tipo de dado primitivo, ela não pode ser alterada, mas é pos
 #### Principais Métodos: #### (exemplo Principais Métodos)
 (Exemplo Pincipais Metodos)
  - str.concat(otherStr, otherStr2, ...): Ele concatena a string passada como parâmetro no final da primeira string. Também é possível concatenar strings com a adição (str + ' ' + otherStr + ... + otherStrN)
+ String.prototype.trim()
+ toUpperCase 
+ toLowerCase
+ search
+ replace
+ repeat
+ slice 
+ split
+ substr
+ substring
 // TODO acrescentar mais metodos https://bognarjunior.wordpress.com/2015/01/12/string-javascript-metodos/
 
 #### Catacteres especiais ####
@@ -23,9 +32,9 @@ Támbem existem alguns caracteres especial para estilizar uma string, como o \n 
 
 // TODO: Acrescentar exemplos
 
-#### Convertendo Tipos De Dados No Tipo String) ####
-(Exemplo De Convertendo Tipos D Dados No Tipo String)
-Você pode converter um tipo de dado primitico ou objeto em uma string utilizando a função String(expressão) ou toString, se o dano não for null ou undefined
+#### Convertendo Tipos De Dados No Tipo String ####
+(Exemplo De Convertendo Tipos De Dados No Tipo String)
+Você pode converter um tipo de dado primitivo ou objeto em uma string utilizando a função String(expressão) ou o método .toString(), se o dano não for null ou undefined
 
 
 ##### A diferença entre String('algo') e new String('algo') #####

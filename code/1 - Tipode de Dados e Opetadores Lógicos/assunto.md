@@ -30,6 +30,9 @@ Os tipos de dados são essenciais para a computação, já que eles que indicam 
 
 
 
+#### Um pouco mais a fundo ####
+
+Os tipos primitivos Booleano, String e NUmber são convertidos automaticamente pelo JavaScript  para objetos dos seus respectivos tipos, por isso é possível utilizar os métodos do objeto x através de x primitivas
 
 
 // Numbers
