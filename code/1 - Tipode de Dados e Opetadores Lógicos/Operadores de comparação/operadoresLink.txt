@@ -1,0 +1,3 @@
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_de_compara%C3%A7%C3%A3o
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Equality_comparisons_and_sameness
+https://dorey.github.io/JavaScript-Equality-Table/
