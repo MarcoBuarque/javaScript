@@ -1,3 +1,15 @@
+// Exemplo De
+console.log('\n Exemplo De \n')
+
+
+
+// Exemplo De
+console.log('\n Exemplo De \n')
+
+
+// Exemplo De
+console.log('\n Exemplo De \n')
+
 console.log('\ntypeof(!![]) === typeof(false):', typeof(!![]) === typeof(false))
 
 console.log('\ntypeof true === "boolean":', typeof true === 'boolean')

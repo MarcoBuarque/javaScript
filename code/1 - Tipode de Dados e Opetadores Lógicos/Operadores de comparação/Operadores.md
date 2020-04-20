@@ -21,7 +21,7 @@ Compara o tipo e o conteúdo dos operandos, sem nenhum tipo de conversão.
  - não idêntico (!==): retorna verdadeiro se os operandos não são iguais e / ou não são do mesmo tipo.
 
  ### Algumas regras ###
-  -Uma expressão comparando Objetos somente é verdadeira se os operandos referenciarem o mesmo Objeto. Há a comparação entre a referência deles, se eles referenciam a mesma posição de memória.
+ -Uma expressão comparando Objetos somente é verdadeira se os operandos referenciarem o mesmo Objeto. Há a comparação entre a referência deles, se eles referenciam a mesma posição de memória.
  -Os tipo Null e Undefined são estritamente iguais entre eles mesmos e abstratamente iguais entre si. Para qualquer objetos não-primitivo x e y que têm a mesma estrutura, mas são - - - -Objetos distintos entre si, qualquer igualdade será avaliada como falsa.
  -Quando há a comparação entre um objeto e um dado primitivo, no processo de conversão, o operador tenta converter o objeto para um tipo primitivo e 'pegar' o valor de retorno padrão do objeto, por meio do valueOf ou por meio do toString, para realizar a comparação.
  -NaN não é igual a nada, incluindo NaN. 
