@@ -1,3 +1,7 @@
+https://github.com/braziljs/eloquente-javascript
+https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript
+https://www.youtube.com/watch?v=t2CEgPsws3U
+
 JavaScript do básico ao avançado (c/ Node.js e projetos) 
 https://www.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/
 
