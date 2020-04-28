@@ -13,17 +13,58 @@ Como string é um tipo de dado primitivo, ela não pode ser alterada, mas é pos
 
 #### Principais Métodos: #### (exemplo Principais Métodos)
 (Exemplo Pincipais Metodos)
- - str.concat(otherStr, otherStr2, ...): Ele concatena a string passada como parâmetro no final da primeira string. Também é possível concatenar strings com a adição (str + ' ' + otherStr + ... + otherStrN)
- - str.trim(): Remove os espaços antes do primeiro caracter da string e depois do último caracter da string
- - str.toUpperCase(): 
- - str.toLowerCase():
- - str.search():
+ - str.concat(otherStr, otherStr2, ...): Retonar uma nova string a partir da  concatenação das strings passadas como parâmetro, enfileirando-as de acordo com a ordem que os argumentos foram passados. Também é possível concatenar strings com a adição (str + ' ' + otherStr + ... + otherStrN).
+
+ - str.trim(): Retorna uma nova string a partir de uma string predeterminada, removendo os espaços em branco antes do primeiro caracter da string e depois do último caracter da string, além de todo sinal de fim de linha de texto (LF, CR, etc.). Ele possui algumas variações: o trimEnd/trimRight() e o trimStart/trimLeft() (nomes sugestivos).
+ 
+ - str.toUpperCase(): Retorna uma nova string, com todos os caracteres da original, só que em caixa baixa.
+
+ - str.toLowerCase(): Retorna uma nova string, com todos os caracteres da original, só que em caixa alta.
+
+ - str.includes(): Retorna um booleano referente se a substring passada como argumento est-a presente na string que chama o método ou não.
+
+ - str.startWith():
+
+ - str.endsWith():
+
  - str.replace():
- - str.repeat():
+
  - str.slice(): 
+
+ - str.repeat():
+
  - str.split():
+
+ - str.indexOf():
+
+ - str.lastIndexOf():
+
+ - str.normalize():
+
+ - str.match():
+
+ - str.padEnd():
+
+ - str.padStart():
+
+ - str.fromCharCode():
+
+ - str.fromCodePoint():
+
+ - str.charAt():
+
+ - str.charCodeAt():
+
+ - str.toSOurce():
+
+ - str.search():
+
+ - str.sub():
+
  - str.substr():
+
  - str.substring():
+
 // TODO acrescentar mais metodos https://bognarjunior.wordpress.com/2015/01/12/string-javascript-metodos/
 
 #### Catacteres especiais ####
