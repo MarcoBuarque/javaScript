@@ -14,16 +14,16 @@ Como string é um tipo de dado primitivo, ela não pode ser alterada, mas é pos
 #### Principais Métodos: #### (exemplo Principais Métodos)
 (Exemplo Pincipais Metodos)
  - str.concat(otherStr, otherStr2, ...): Ele concatena a string passada como parâmetro no final da primeira string. Também é possível concatenar strings com a adição (str + ' ' + otherStr + ... + otherStrN)
- String.prototype.trim()
- toUpperCase 
- toLowerCase
- search
- replace
- repeat
- slice 
- split
- substr
- substring
+ - str.trim(): Remove os espaços antes do primeiro caracter da string e depois do último caracter da string
+ - str.toUpperCase(): 
+ - str.toLowerCase():
+ - str.search():
+ - str.replace():
+ - str.repeat():
+ - str.slice(): 
+ - str.split():
+ - str.substr():
+ - str.substring():
 // TODO acrescentar mais metodos https://bognarjunior.wordpress.com/2015/01/12/string-javascript-metodos/
 
 #### Catacteres especiais ####
