@@ -47,4 +47,4 @@ obj2[idSymb] = 'change2'
 
 console.log(obj, obj2)
 
-coçocar os dois objetos dentro de um onjeto e chamar o getOwnPropertySymbol
+// Colocar os dois objetos dentro de um objeto e chamar o getOwnPropertySymbol

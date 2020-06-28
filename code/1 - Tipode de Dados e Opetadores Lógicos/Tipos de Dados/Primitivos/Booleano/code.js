@@ -44,3 +44,5 @@ console.log('\ntypeof(new Boolean(true)) === typeof(true):', typeof(test) === ty
 // console.log(test)
 console.log('\ntestando a função construtora Boolean()')
 console.log(!!null, !!undefined, Boolean(undefined))
+
+console.log('Boolean length',  init1.length, init2.length)

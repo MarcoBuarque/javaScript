@@ -11,7 +11,8 @@ const aux4 = aux3.toString()
 
 console.log(typeof aux1, typeof aux3, typeof aux4)
 
-aux = undefined
-// console.log(x.toString()) // Dá erro pq o .toString() vai buscar o contúdo de aux no local de  memória 
-                             // o qual aux está referenciando. Mas os tipos Undefined e Null não possuem  
-                             // referência de memória ?????
+const aux = undefined
+  // console.log(aux.toString()) // Error
+
+const func = () => 10
+console.log('{}:', {}.toString(), '[]:', [].toString(), 'function:', func.toString(), 'Function return', func().toString())
