@@ -2,17 +2,17 @@
 
 As string são utilizadas para representar textos, esses textos vêm envoltos de aspas simples '' ou aspas duplas "" ou crases ``, sendo o último caso chamado de template literals. Uma string é formada por caracteres, também chamados de elementos, cada caracter possui 16-bits unsigned integer, isso é, ocupam 16 bits na memória.
 
-As strings possuem um index, pelo qual é possível acessar cada caracter. O primeiro caracter possui o index 0, o segundo caracter possui index 1, e assim sucessivamente. Há duas formas de acessar um caracter em uma string com o [index] ou com o charAt(index) 
-(Exemplo Acessando Caracter )
+As strings possuem um index, pelo qual é possível acessar cada caracter. O primeiro caracter possui o index 0, o segundo caracter possui index 1, e assim sucessivamente. Há duas formas de acessar um caracter em uma string com o String[index] ou com o charAt(index) 
+(Exemplo Acessando Caracter)
 
-O objeto String só possui uma propriedade, o String.length, ela retorna quantos caracteres possui a string, tamanho da string 
-(Exemplo De Propriedade)
+O objeto String só possui uma propriedade, a String.length, ela retorna quantos caracteres possui a string, o tamanho da string. Espaços vazios, mesmo que venham após o último caracter da string, também contam como parte da string, são elementos da string, e, consequentemente, contam para o tamanho da mesma. 
+(Exemplo Prop e Metodos)
 
 Como string é um tipo de dado primitivo, ela não pode ser alterada, mas é possível criar novas strings ou sub-strings a partir de uma string definida previamente, utilizando métodos do objeto String.
 (Exemplo De Imutabilidade)
 
 #### Principais Métodos: #### (exemplo Principais Métodos)
-(Exemplo Pincipais Metodos)
+(Exemplo Prop e Metodos)
  - str.concat(otherStr, otherStr2, ...): Retonar uma nova string a partir da  concatenação das strings passadas como parâmetro, enfileirando-as de acordo com a ordem que os argumentos foram passados. Também é possível concatenar strings com a adição (str + ' ' + otherStr + ... + otherStrN).
 
  - str.trim(): Retorna uma nova string a partir de uma string predeterminada, removendo os espaços em branco antes do primeiro caracter da string e depois do último caracter da string, além de todo sinal de fim de linha de texto (LF, CR, etc.). Ele possui algumas variações: o trimEnd/trimRight() e o trimStart/trimLeft() (nomes sugestivos).
@@ -21,27 +21,26 @@ Como string é um tipo de dado primitivo, ela não pode ser alterada, mas é pos
 
  - str.toLowerCase(): Retorna uma nova string, com todos os caracteres da original, só que em caixa alta.
 
- - str.includes(): Retorna um booleano referente se a substring passada como argumento est-a presente na string que chama o método ou não.
+ - str.includes('alguma coisa'): Retorna um booleano referente se a substring passada como argumento está presente na string que chama o método ou não.
 
- - str.startWith():
+ - str.startWith('alguma coisa'):  Retorna um booleano referente se a string começa com substring passada como argumento.
+ - str.endsWith('alguma coisa'):  Retorna um booleano referente se a string finaliza com substring passada como argumento.
 
- - str.endsWith():
+ - str.replace(): // TODO
 
- - str.replace():
-
- - str.slice(): 
+ - str.slice(): // TODO
 
  - str.repeat():
 
- - str.split():
+ - str.split(): // TODO
 
  - str.indexOf():
 
  - str.lastIndexOf():
 
- - str.normalize():
+ - str.normalize(): Converte um code point (UNICODE) para um caracter, seguindo um padrão de padronização ("NFC", "NFD", "NFKC", ou "NFKD").
 
- - str.match():
+ - str.match(): 
 
  - str.padEnd():
 
@@ -55,17 +54,19 @@ Como string é um tipo de dado primitivo, ela não pode ser alterada, mas é pos
 
  - str.charCodeAt():
 
- - str.toSOurce():
+ - str.toSource():
 
  - str.search():
 
  - str.sub():
 
- - str.substr():
+ - str.substr(): // TODO
 
  - str.substring():
 
 // TODO acrescentar mais metodos https://bognarjunior.wordpress.com/2015/01/12/string-javascript-metodos/
+
+Nota: Com a chegada do template literals no JScript, ele passou a ser mais utilizado para fazer junções de strings que os seus métodos específicos. 
 
 #### Catacteres especiais ####
 (Exemplo Caracteres Especiais)
@@ -85,7 +86,7 @@ String(1) dá um primitivo do tipo String e new String(1) dá um objeto, uma ins
 Não é aconselhado usar o New String(algo) com uma expressão, para isso utilize apenas o String(algo)
 
 
-#### Um pouco mais a fundo ####
+#### Um pouco mais ####
 (Exemplo De )
  O JavaScript converte automaticamente strings primitivas para objetos do tipo String, por isso é possível utilizar os métodos do objeto String através de strings primitivas.  Em contextos onde um método é invocado de uma string primitiva ou uma propriedade é procurada, o JavaScript irá criar um objeto com a string primitiva e executar o método ou acessar a propriedade procurada.
 

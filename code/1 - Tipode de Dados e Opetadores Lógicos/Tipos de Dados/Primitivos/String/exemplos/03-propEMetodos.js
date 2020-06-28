@@ -8,7 +8,9 @@ let otherStr = 'outra string'
 
 console.log('str.length', str.length)
 
-
+str = 'String test'
+const strSpace = 'String  teste '
+console.log(`"${str}"`, str.length, `"${strSpace}"`, strSpace.length)
 
 // Exemplo Principais Métodos 
 console.log('\n Exemplo Principais metodos\n')
@@ -33,8 +35,13 @@ console.log('str.inclues("baca")', str.includes('baca'))
 console.log('str.includes("bacca")', str.includes('bacca'))
 console.log('\n')
 
-
-console.log('str.')
+// str = 'BrasIl test ção'
+str = 'primeira: \u1E9B segunga \u0323 terceira \u0327'
+console.log('str.normalize')
+console.log('NFC', str.normalize()) // O padrão NFC já é o default
+console.log('NFD', str.normalize('NFD'))
+console.log('NFKC', str.normalize('NFKC'))
+console.log('NFKD', str.normalize('NFKD'))
 console.log('\n')
 
 console.log('str.')

@@ -7,7 +7,14 @@ console.log('\n Exemplo De \n')
 // Exemplo De
 console.log('\n Exemplo De \n')
 
-
+/*
+As funções parseInt() e parseFloat() fazem a conversão da string até alcançarem um 
+caracter que não é válido para o formato numérico especificado, então elas 
+retornam o número convertido até aquele ponto. Contudo, o operador "+" simplesmente 
+converte a string em NaN  se tiver algum caracter inválido nela. 
+Apenas tente por si mesmo converter a string "10.2abc" usando cada um desses métodos 
+no console e entenderá melhor essas diferenças.
+*/
 
 // Exemplo De
 console.log('\n Exemplo De ')
@@ -38,7 +45,7 @@ console.log('\n\n template literals, linha 50')
 console.log(typeof strrr)
 
 console.log('\n\n imprimindo uma função vazia, linha 55')
-console.log(test.toString(), test, test.Function)
+// console.log(test.toString(), test, test.Function)
 
 console.log('\n\n usando o lastIndexOf, linha 58')
 str = 'string e es test string'
@@ -54,9 +61,11 @@ console.log(concat, aux1, aux2, aux3, str[concat], str[aux1], typeof concat, str
 // Exemplo eval
 s1 = "2 + 2";               
 s2 = new String("2 + 2"); 
-console.log('\n Ecemplo eval')  
-console.log(eval(s1));      
-console.log(eval(s2));
-console.log(eval(s2.valueOf()));
-
+const strUnd = new String(undefined)
+console.log('\n Exemplo eval')  
+console.log(eval(s1))   
+console.log(eval(s2))
+console.log(eval(s2.valueOf()))
+console.log(eval(new String(undefined)))
+console.log(strUnd)
 

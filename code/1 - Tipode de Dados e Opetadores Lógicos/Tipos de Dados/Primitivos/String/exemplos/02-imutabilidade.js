@@ -3,8 +3,8 @@
 // Exemplo De De Imutabilidade
 console.log('\n Exemplo de De Imutabilidade\n')
 
-let test8 = 'aaaa string'
-stringTest = test8.concat('aaaaa')
-test8.concat('aaaaa') // tentando acrescentar a string 'aaaaa' em test8
+let test8 = 'string para test'
+stringTest = test8.concat('concatenacao')
+test8.concat('concatenacao') // tentando acrescentar a string 'concatenacao' em test8
 
-console.log(test8, stringTest)
+console.log('String original:', test8, '\nString concat:', stringTest)
