@@ -46,3 +46,16 @@ console.log('\ntestando a função construtora Boolean()')
 console.log(!!null, !!undefined, Boolean(undefined))
 
 console.log('Boolean length',  init1.length, init2.length)
+function Person(first, last) {
+  this.first = first;
+  this.last = last;
+  this.fullName = function() {
+      return this.first + ' ' + this.last;
+  }
+  this.fullNameReversed = function() {
+      return this.last + ', ' + this.first;
+  }
+}
+var s = new Person("Simon", "Willison");
+var test2 = s.fullName
+console.log(test2())
